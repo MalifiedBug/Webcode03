@@ -1,0 +1,72 @@
+.footerr{
+    
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+/* .main{
+    position: relative;
+    top:0rem;
+    bottom: 0rem;
+    left: 0;
+    right: 0;
+    background-color: grey;
+}
+
+@media screen and (max-width:440px) {
+
+    .main{
+        position: realtive;
+        display: flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        top:5.875rem;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: grey;
+    }
+    
+} */
+
+.regular{
+    border: solid 4px blueviolet;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.card{
+    border: 1px solid;
+    padding: 10px;
+    width: min-content;
+    height:auto;
+    margin: 10px;
+    aspect-ratio: 3/5;
+    background-color: beige;
+}
+
+.searched{
+    border: 2px solid;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    max-height: fit-content;
+}
+
+
+.random{
+    border: 3px solid pink;
+    margin: 3px;
+    max-width: 100%;
+    max-height: fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
